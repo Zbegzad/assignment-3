@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Tabs</title>
+</head>
+<body>
+    <ul class="tabs"> 
+        <li data-tab-target="#home"class="active tab">Home</li>
+        <li data-tab-target="#profile"class="tab">Profile</li>
+        <li data-tab-target="#contact"class="tab">Contact</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+            <h1>Home</h1>
+            <p>This is the home tab</p>
+        </div>
+
+        <div id="Profile" data-tab-content>
+            <h1>Profile</h1>
+            <p>For more information about the website check our profile</p>
+        </div>
+
+        <div id="Contact" data-tab-content>
+            <h1>Contact</h1>
+            <p>You can contact me through emial or phone number </p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
